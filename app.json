@@ -2,7 +2,7 @@
   "expo": {
     "name": "deepdiary",
     "slug": "deepdiary",
-    "version": "1.0.0",
+    "version": "1.0.1",
     "orientation": "portrait",
     "icon": "./assets/icon.png",
     "userInterfaceStyle": "light",
@@ -18,7 +18,7 @@
       "supportsTablet": true
     },
     "android": {
-      "versionCode": 1,
+      "versionCode": 2,
       "adaptiveIcon": {
         "foregroundImage": "./assets/adaptive-icon.png",
         "backgroundColor": "#ffffff"
@@ -34,6 +34,7 @@
       "eas": {
         "projectId": "d4f458a7-0b99-4a13-bb86-63a4c0311c70"
       }
-    }
+    },
+    "newArchEnabled": false
   }
 }
