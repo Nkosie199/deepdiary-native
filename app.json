@@ -2,7 +2,7 @@
   "expo": {
     "name": "deepdiary",
     "slug": "deepdiary",
-    "version": "1.0.1",
+    "version": "1.0.2",
     "orientation": "portrait",
     "icon": "./assets/icon.png",
     "userInterfaceStyle": "light",
@@ -18,13 +18,12 @@
       "supportsTablet": true
     },
     "android": {
-      "versionCode": 2,
+      "versionCode": 3,
       "adaptiveIcon": {
         "foregroundImage": "./assets/adaptive-icon.png",
         "backgroundColor": "#ffffff"
       },
-      "package": "com.mynger.deepdiary",
-      "edgeToEdgeEnabled": false
+      "package": "com.mynger.deepdiary"
     },
     "web": {
       "favicon": "./assets/favicon.png"
