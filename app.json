@@ -2,14 +2,14 @@
   "expo": {
     "name": "deepdiary",
     "slug": "deepdiary",
-    "version": "1.0.2",
+    "version": "1.0.3",
     "orientation": "portrait",
     "icon": "./assets/icon.png",
     "userInterfaceStyle": "light",
     "splash": {
-      "image": "./assets/splash.png",
+      "image": "./assets/splash-icon.png",
       "resizeMode": "contain",
-      "backgroundColor": "#ffffff"
+      "backgroundColor": "#fdfdfe"
     },
     "assetBundlePatterns": [
       "**/*"
@@ -18,10 +18,10 @@
       "supportsTablet": true
     },
     "android": {
-      "versionCode": 3,
+      "versionCode": 4,
       "adaptiveIcon": {
         "foregroundImage": "./assets/adaptive-icon.png",
-        "backgroundColor": "#ffffff"
+        "backgroundColor": "#fdfdfe"
       },
       "package": "com.mynger.deepdiary"
     },
@@ -34,6 +34,17 @@
         "projectId": "d4f458a7-0b99-4a13-bb86-63a4c0311c70"
       }
     },
-    "newArchEnabled": false
+    "newArchEnabled": false,
+    "plugins": [
+      [
+        "expo-splash-screen",
+        {
+          "image": "./assets/splash-icon.png",
+          "resizeMode": "contain",
+          "backgroundColor": "#fdfdfe",
+          "imageWidth": 200
+        }
+      ]
+    ]
   }
 }
